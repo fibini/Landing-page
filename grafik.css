@@ -1,0 +1,11 @@
+.flex-container{
+    display: flex;
+}
+.flex-container div{
+    height: 10px;
+    flex: 1 1 0%;
+}
+.flex-container .header{
+    flex: 5 1 0%;
+    padding-left: 200px;
+}
