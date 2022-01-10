@@ -1,11 +1,116 @@
-.flex-container{
+html{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.one{
+    color: white;
+    background-color: #1f2937;
+}
+nav ul{
+    display: flex;
+    margin: 0 -10px;
+}
+nav li{
+    margin: 0 30px;
+}
+.right{
+    margin-left: auto;
+}
+
+.tera{
+    display: flex;
+    align-items: flex-start;
+}
+.tera .text{
+    flex: 1;
+    padding: 10px;
+    margin-top: 100px;
+}
+span{
+    display: block;
+    font-size: 18px;
+}
+.header{
+    font-size: 48px;
+    font-weight: 800;
+}
+.pic{
+    margin-right: 100px;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.two{
+    background-color: white;
+    height: 500px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
     display: flex;
 }
-.flex-container div{
-    height: 10px;
-    flex: 1 1 0%;
+.item{
+    border: 4px solid blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
 }
-.flex-container .header{
-    flex: 5 1 0%;
-    padding-left: 200px;
+
+.three{
+    background-color: #e5e7eb;
+    height: 500px;
+}
+words2{
+    display: flex;
+}
+
+.quote{
+    text-align: center;
+    padding-top: 250px;
+    flex: 1;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+.four{
+    display: flex;
+    background-color: white;
+    padding: 25px;
+    height: 500px;
+    flex-direction: column;
+}
+.content{
+    text-align: center;
+}
+
+.con{
+    display: inline-block;
+}
+.card{
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    margin: 50px;
+    border-radius: 20px;
+
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+.four .content{
+    flex: 1 1 auto;
+}
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    height: 100px;
+    padding: 65px;
+}
+.but{
+    margin: 25px;
 }
